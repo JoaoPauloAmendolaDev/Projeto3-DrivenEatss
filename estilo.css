@@ -1,0 +1,138 @@
+
+*{
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Righteous';
+    font-size: 26px;
+    line-height: 33px;
+    font-weight: 400;
+    padding-bottom: 17px;
+    padding-top: 27px;
+}
+p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 21px;
+    margin-top: 0px;
+}
+body{
+    width: 414px;
+    background-color: #e5e5e5;
+    height: 1118px;
+    border-style: ;
+}
+.Topo{
+    width: 414px;
+    height: 92px;
+    background-color: #CF2B2B;
+    padding-left: 21px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+.Topo span{
+    display: block;
+    font-family: 'Righteous';
+    font-weight: 400;
+    font-size: 44px;
+    color: #ffffff;
+    line-height: 52px;
+}
+.Conteiner{
+    width: 414px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 19px;
+    padding-top: 92px;
+    height: fit-content;
+    padding-bottom: 92px;
+    overflow-x: scroll;
+}
+.Box_Pratos{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 231px;
+    overflow-x: scroll;
+}
+.Prato{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 12px 11px 12px;
+    width: 172px;
+    height: 216px;
+    margin-right: 16px;
+    border-radius: 9px;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+.Prato img{
+    width: 144px;
+    height: 87px;
+    border-radius: 4px;
+}
+.Prato h1{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    width: 139px;
+    height: 23px;
+    line-height: 19px;
+    color: #333333;
+    padding-top: 8px;
+}
+.Prato h2{
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #A6A6A6;
+    padding-top: 4px;
+}
+.Prato h3{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    padding-top: 5px;
+    position: absolute;
+    bottom: 13px;
+    left: 14px;
+}
+.Barra_Inferior{
+    width: 414px;
+    height: 92px;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Botao{
+    width: 364px;
+    height: 61px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cbcbcb;
+    border-radius: 54px;
+}
+.Botao h4{
+    display:block;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 23px;
+}
+.Botao span{
+    display: block;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <title>DrivenEats</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="Topo"> <!---------------------------AQUI É O TOPO ---------------------------->
+        <p><span>DrivenEats</span>
+        sua comida em 6 minutos</p>
+    </div> <!---------------------------FIM DO TOPO ---------------------------->
+
+    <div class="Conteiner"> <!---------------------------INICIO DO CONTEINER ---------------------------->
+    <h1>Primeiro, seu prato</h1>
+    <div class="Box_Pratos"><!---------------------------INICIO DOS PRATOS PRINCIPAIS ---------------------------->
+        <div class="Prato">
+            <img src="./imagens/ramen.png" alt="Ramen">
+            <h1>Ramen</h1>
+            <h2>Um delicioso Ramen à moda da casa</h2>
+            <h3>R$ 39,90</h3>
+        </div>
+        <div class="Prato">
+            <img src="./imagens/salmao.jpg" alt="Salmão">
+            <h1>Salmão Grelhado</h1>
+            <h2>Salmão Grelhado com molho bechamel</h2>
+            <h3>R$ 79,90</h3>
+        </div>
+        <div class="Prato">
+            <img src="./imagens/onigiri.png" alt="Onigiri">
+            <h1>Onigiri</h1>
+            <h2>Uma originalidade japonesa</h2>
+            <h3>R$ 29,90</h3>
+        </div>
+        <div class="Prato">
+            <img src="./imagens/takoiake.png" alt="takoyake">
+            <h1>Takoyaki</h1>
+            <h2>Bolinha de polvo tradicional</h2>
+            <h3>R$ 69,90</h3>
+        </div>
+        <div class="Prato">
+            <img src="./imagens/omurice.jpg" alt="omurice">
+            <h1>Omurice</h1>
+            <h2>Incrível omelete com acompanhamentos</h2>
+            <h3>R$ 49,90</h3>
+        </div>
+    </div><!---------------------------FIM DOS PRATOS PRINCIPAIS ---------------------------->
+    
+    <h1>Agora, sua bebida</h1>
+    <div class="Box_Pratos"><!---------------------------INICIO DAS BEBIDAS ---------------------------->
+        <div id="coca" class="Prato" onclick="escolher_bebida()">
+            <img src="./imagens/cola.jpg" alt="Coca-Cola">
+            <h1>Coca-Cola</h1>
+            <h2>Geladinha é incomparável (350ml)</h2>
+            <h3>R$ 4,90</h3>
+        </div>
+        <div class="Prato">
+            <img src="./imagens/ice-tea.jpg" alt="Ice Tea">
+            <h1>Ice Tea</h1>
+            <h2>YES YES YES YES YES YES (300ml)</h2>
+            <h3>R$ 5,90</h3>
+        </div>
+        <div class="Prato">
+            <img src="./imagens/suco.jpg" alt="Suco de Laranja">
+            <h1>Suco de Laranja</h1>
+            <h2>Que delícia cara (500ml)</h2>
+            <h3>R$ 7,90</h3>
+        </div>
+        <div class="Prato">
+            <img src="./imagens/monster.jpg" alt="Energético Monster">
+            <h1>Monster</h1>
+            <h2>Sua dose extra de disposição (300ml)</h2>
+            <h3>R$ 9,90</h3>
+        </div>
+        <div class="Prato">
+            <img src="./imagens/agua.jpg" alt="Agua">
+            <h1>Agua Japonesa</h1>
+            <h2>Retirada dos Alpes Japoneses (200ml)</h2>
+            <h3>R$ 19,90</h3>
+        </div>
+    </div><!---------------------------FIM DAS BEBIDAS ---------------------------->
+
+    <h1>Por fim, sua sobremesa</h1>
+    <div class="Box_Pratos"><!---------------------------INICIO DAS SOBREMESAS ---------------------------->
+        <div class="Prato">
+            <img src="./imagens/bolo.png" alt="Bolo">
+            <h1>Bolo de Morango</h1>
+            <h2>O preferido do pica-pau</h2>
+            <h3>R$ 89,90</h3>
+        </div>
+        <div class="Prato">
+            <img src="./imagens/chocolate.jpg" alt="Chocolate">
+            <h1>Petit Gato</h1>
+            <h2>Petit Gato feito por um japonês</h2>
+            <h3>R$ 29,90</h3>
+        </div>
+        <div class="Prato">
+            <img src="./imagens/dango.jpg" alt="Dango">
+            <h1>Dango</h1>
+            <h2>Típico doce de rua japonês</h2>
+            <h3>R$ 19,90</h3>
+        </div>
+        <div class="Prato">
+            <img src="./imagens/pudim.jpg" alt="pudim">
+            <h1>Pudim</h1>
+            <h2>Não tão japones, mas eles amam</h2>
+            <h3>R$ 19,90</h3>
+        </div>
+        <div class="Prato">
+            <img src="./imagens/wasaghi.jpg" alt="Wasashi">
+            <h1>Wasashi</h1>
+            <h2>é o Dango, só que melhor</h2>
+            <h3>R$ 29,90</h3>
+        </div>
+    </div><!---------------------------FIM DAS SOBREMESAS ---------------------------->
+
+
+
+</div><!---------------------------FIM DO CONTEINER ---------------------------->
+<div class="Barra_Inferior"><!---------------------------INICIO DA BARRA INFERIOR ---------------------------->
+    <div class="Finalizar">
+        <div class="Botao">
+        <h4><span>Selecione os 3 itens</span> para fechar o pedido</h4>
+        </div>
+    </div>
+</div><!---------------------------FIM DA BARRA INFERIOR ---------------------------->
+<script src="./script.js"></script>
+</body>
+</html>
