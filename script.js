@@ -5,7 +5,6 @@ let nome_comida = 0;
 let nome_bebida = 0;
 let nome_sobremesa = 0;
 
-
 function escolher_Prato(comida, valor_alimento, nome){
     const alimento = document.querySelector(".Box_Pratos .Borda_Verde");
     const refeicao = document.querySelector(comida);
@@ -17,7 +16,6 @@ function escolher_Prato(comida, valor_alimento, nome){
     nome_comida = nome;
     confirmar();
 }
-
 function escolher_Bebida(bebida, valor_alimento, nome){
     const alimento = document.querySelector(".Box_Bebidas .Borda_Verde");
     const refeicao = document.querySelector(bebida);
@@ -29,7 +27,6 @@ function escolher_Bebida(bebida, valor_alimento, nome){
     nome_bebida = nome;
     confirmar();
 }
-
 function escolher_Sobremesa(sobremesa, valor_alimento, nome){
     const alimento = document.querySelector(".Box_Sobremesas .Borda_Verde");
     const refeicao = document.querySelector(sobremesa);
