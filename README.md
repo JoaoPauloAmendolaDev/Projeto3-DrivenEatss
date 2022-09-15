@@ -1,4 +1,4 @@
-(EN) PROJECT 6 - BUZZQUIZ
+(EN) PROJECT 3 - FoodBox 
 
 This project was made by João Paulo S. Amendola.
 
@@ -8,7 +8,7 @@ As technologies used were JavaScript, HTML and CSS.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-(PT-BR) Projeto 06 - BuzzQuizz
+(PT-BR) Projeto 3 - FoodBox
 
 Esse projeto foi feito em colaboração entre Maristane Figueiredo e João Paulo S. Amendola.
 
