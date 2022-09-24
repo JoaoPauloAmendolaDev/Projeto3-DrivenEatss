@@ -10,7 +10,7 @@ As technologies used were JavaScript, HTML and CSS.
 
 (PT-BR) Projeto 3 - FoodBox
 
-Esse projeto foi feito em colaboração entre Maristane Figueiredo e João Paulo S. Amendola.
+Esse projeto foi por João Paulo S. Amendola.
 
 O trabalho consiste em um projeto em individual de um site no modelo Ifood, onde o usuário pode pedir sua comida e entrar em contato diretamente com o restaurante com seu pedido montado.
 
